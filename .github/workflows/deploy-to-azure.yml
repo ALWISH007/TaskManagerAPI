@@ -15,7 +15,7 @@ env:
   CONTAINER_APP: 'taskmanager-api'
   CONTAINERAPPS_ENVIRONMENT: 'taskmanager-env'
   REGISTRY: 'ghcr.io'
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: 'taskmanager-api' #${{ github.repository }}
 
 jobs:
   build-and-deploy:
